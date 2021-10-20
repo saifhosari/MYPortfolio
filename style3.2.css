@@ -1,0 +1,177 @@
+@media (max-width:480px) {
+    .container ul  {
+     display: grid;
+     grid-template-columns: repeat(1,50px);
+     margin-right: 50px;
+     font-size: 30px;
+    }
+   
+  nav ul li a:hover::before,
+  nav ul li a:hover::after {
+      margin-top: 40PX;
+      margin-bottom: 10PX;
+      width: 100%;
+      transform: scaleX(0);
+  }
+  ul li:nth-child(1)::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f015"; 
+      position: absolute;
+      top: 34px;
+      right: 60px;
+      font-size: 39px;
+      color: darkgoldenrod;
+  }
+  ul li:nth-child(2)::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f5fc"; 
+      position: absolute;
+      top: 34px;
+      right: 60px;
+      font-size: 39px;
+      color: rgb(82, 17, 9);
+  }
+  ul li:nth-child(3)::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f2bb"; 
+      position: absolute;
+      top: 34px;
+      right: 60px;
+      font-size: 39px;
+      color: rgb(82, 9, 82);
+  }
+  ul li:nth-child(4)::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f674"; 
+      position: absolute;
+      top: 34px;
+      right: 60px;
+      font-size: 39px;
+      color: rgb(82, 9, 82);
+  }
+  .brand {
+      font-size: 90px;
+  }
+  .about {
+      width: 620px;
+      height: 620px;
+      margin-left: -120px;
+  }
+  .about p {
+     font-size: 13px;
+     line-height: 20px;
+     margin-right: 70px;
+  }
+  .circle {
+      background-size:cover;
+  }
+  .rounded {
+      width: 170px;
+      height: 170px;
+      margin-left: -40px;
+  }
+  .content .text {
+      font-size: 25px;
+  }
+  section {
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .neon a {
+      position: absolute;
+      left: 45px;
+      top: 340%;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .animated-text{
+      position: relative;
+      left: 70px;
+    }
+    
+     .brand {
+         font-size: 90px;
+     }
+     .about {
+         width: 620px;
+         height: 620px;
+         margin-left: -20px;
+     }
+     .fas {
+      display: none;
+     }
+     .about p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-right: 70px;
+     }
+     .circle {
+         background-size:cover;
+     }
+     .rounded {
+         width: 170px;
+         height: 170px;
+         margin-left: 45px;
+     }
+     .content .text {
+         font-size: 25px;
+     }
+     section {
+         background-size: cover;
+         background-repeat: no-repeat;
+     }
+     .neon a {
+         position: absolute;
+         left: 190px;
+         top: 250%;
+     }
+} 
+@media (min-width:769px) and (max-width:1279px) {
+    .animated-text{
+        position: relative;
+        left: 70px;
+        
+      }
+      
+       .brand {
+           font-size: 90px;
+       }
+       .about {
+           width: 620px;
+           height: 620px;
+           margin-left: -20px;
+       }
+       .fas {
+        display: none;
+       }
+       .about p {
+          font-size: 13px;
+          line-height: 20px;
+          margin-right: 70px;
+       }
+       .circle {
+           background-size:cover;
+       }
+       .rounded {
+           width: 170px;
+           height: 170px;
+           margin-left: 45px;
+       }
+       .content .text {
+           font-size: 25px;
+       }
+       section {
+           background-size: cover;
+           background-repeat: no-repeat;
+       }
+       .neon a {
+           position: absolute;
+           left: 190px;
+           top: 235%;
+       }
+    }
